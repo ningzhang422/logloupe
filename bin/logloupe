@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require '/home/vagrant/logloupe/lib/logloupe'
+
+loupe = Logloupe::Logloupe.new  
+loupe.say_hello 
