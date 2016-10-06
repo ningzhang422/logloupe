@@ -3,4 +3,5 @@
 require '/home/vagrant/logloupe/lib/logloupe'
 
 loupe = Logloupe::Logloupe.new  
-loupe.say_hello 
+#puts loupe.say_hello(ARGV[0])
+puts loupe.get_file_content(ARGV[0])
